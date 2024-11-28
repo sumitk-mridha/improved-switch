@@ -1,0 +1,1 @@
+declare type mainId = string | number | boolean | undefined;

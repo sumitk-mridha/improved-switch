@@ -1,0 +1,21 @@
+{
+  "name": "improved-switch",
+  "version": "1.0.1",
+  "description": "An improved switch syntax for javascript, which allows you to cover more base - such as using comparative statements inside switch cases.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "tsc"
+  },
+  "keywords": [
+    "switch",
+    "javascript",
+    "typescript",
+    "if-else"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "author": "Sumit Kumar Mridha",
+  "license": "MIT"
+}
