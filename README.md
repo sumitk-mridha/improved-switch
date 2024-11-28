@@ -4,9 +4,13 @@ An improved switch syntax for javascript, which allows you to cover more base - 
 ## Installation
 `npm install improved-switch --save`
 
-# Usage
+## Import Statement
 
-A simple switch-case:
+`const { startSwitch } = require("improved-switch")`
+
+## Usage
+
+### A simple switch-case:
 ```
 var order = "Dumplings";
 
@@ -36,6 +40,8 @@ startSwitch(order)
 })
 ```
 `return true;` is to be used as a break statement in a switch-case block - none of the callback functions further will be executed, once a true value is returned.
+
+### Switch-case block with conditional statements as case values
 
 How about, determining grades from a student's marks?
 
